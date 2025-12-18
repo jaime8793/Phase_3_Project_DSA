@@ -46,10 +46,12 @@ Feature Importance analysis using XGBoost revealed the following hierarchy of in
 3.  **Access is Secondary:** `health_insurance` was a top driver, but less significant than the psychological and authority-based factors above.
 
 ##  Visualizations
-* **Confusion Matrix:** Shows the balance between True Positives (709) and False Negatives (426).
+
+![Alt Text Description](pictures/Gradient%202.png)
+* **Confusion Matrix:** Shows the balance between True Positives (798) and False Negatives (378).
 * **ROC Curve:** Demonstrates the model's strong ability to rank positive cases higher than negative ones (AUC = 0.86).
 * **Feature Importance Plot:** Visual confirmation of the "Doctor Recommendation" dominance.
-
+![Alt Text Description](pictures/output.png)
 ##  Recommendations
 Based on the modeling results, the following strategy is recommended:
 1.  **Prioritize Provider Outreach:** Shift marketing budget from general awareness ads to equipping doctors with reminder scripts, as this is the strongest lever for conversion.
